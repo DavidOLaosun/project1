@@ -1,0 +1,29 @@
+<php
+quote1 = array(
+    'quote1' => "God may allow us at times to hit rock bottom, to show us He's the rock-at-the bottom." - Kirk Franklin 
+quote2 = array(
+    'quote2' => "Focusing on the negative only makes a difficult journey more difficult." - TobyMac 
+quote3 = array(
+    'quote3' => "Worship: Where God isn't moved by the quality of our voice but by the condition of our hearts." - Chris Tomlin 
+
+$Gospel Singers = array(
+    'Kirk Franklin' => 'God may allow us at times to hit rock bottom, to show us He's the rock-at-the bottom',
+    'TobyMac' => 'Focusing on the negative only makes a difficult journey more difficult' 
+    'Chris Tomlin' => 'Worship: Where God isn't moved by the quality of our voice but by the condition of our hearts'
+
+echo rand() . "\n";
+echo rand() . "\n";
+
+echo rand(5,15);
+
+$name = 'David';
+$string_one = "Learning to display \"hello $name!\" to the screen.\n";
+$string_one = 'Learning to display' 
+."Hello'
+.$name
+.'!" to the screen '
+. "\n";
+echo $string_one;
+
+<h1><php echo 'David Laosun' ; ?></h1>
+?>
